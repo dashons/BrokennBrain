@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+img{
+    object-fit: cover;
+    object-position: top;
+ 
+}
+
+nav .logo img{
+    width: 205px;
+    height: 40px;
+    
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+nav{
+    background-color: #f1f1f1;
+    padding: 0 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+nav a.logo{
+    color: #000;
+    font-weight: 600;
+    padding: 0px 10px;
+    object-fit: cover;
+    object-position: top;
+    font-size: 25px;
+  
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+nav .login button{
+    padding: 6px 20px;
+    background-color: #87dc13;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+nav .login button:hover{
+    background-color: rgb(44, 164, 44);
+}
+
+nav .links a:not(:last-child){
+    margin-right: 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .block1{
+    background-image: url(fon1.png);
+    width: 1010px;
+    margin-top: 90px;
+    height: 560px;
+}
+
+.block1 .tx{
+    padding: 90px 70px;
+}
+
+.block1 .tx h1{
+    font-size: 45px;
+}
+
+.block1 .tx h1 span{
+    color: #43900e;
+}
+
+.block1 .tx p{
+    padding: 50px 0px;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.btt .bt-1{
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.btt .bt-2{
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #baf46e;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    color: #000000;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+main{
+   
+}
+
+main .napravlenie h1{
+ text-align: center;
+ margin-top: 110px;
+ font-size: 40px;
+}
+
+.classes{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.cl-11 .class1 img{
+   width: 180px;
+   margin: 90px;
+}
+
+.cl-11 .class1 h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+.cl-10 .class2 img{
+    width: 180px;
+    margin: 90px;
+}
+
+.cl-10 .class2 h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.cl-9 .class3 img{
+    width: 180px;
+    margin: 90px;
+}
+
+.cl-9 .class3 h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.classes .pr-1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: solid 3px #000;
+    margin-inline: 60px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.classes .pr-1:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.pipls{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.pipls .class4 img{
+    width: 180px;
+   margin: 90px;
+}
+
+.pipls .class4 h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.class4 .pr-1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: solid 3px #000;
+    margin-inline: 60px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.class4 .pr-1:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.format h1{
+    text-align: center;
+    margin-top: 110px;
+    font-size: 50px;
+}
+
+.fon2{
+    background-image: url(fon2.png);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 595px;
+    width: 1229px;
+}
+
+.bts{
+    padding: 360px 0px;
+}
+
+.bt-k{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    width: 220px;
+    height: ;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 25px;
+    margin-left: 800px;
+    margin-top: 100px;
+   
+}
+
+.bt-k:hover{
+    background-color: #fff;
+    color: #000;
+}
+    
+.line {
+    border-bottom: 5px solid #000; 
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+   }
+
+
+
+   .forma{
+    background-image: url(fon3.png);
+    height: 437px;
+    width: 1188px;
+    background-color: #acf43d;
+    border-radius: 20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+   }
+
+   .bts2{
+    padding: 290px 0px;
+}
+
+.bt-kk{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    width: 270px;
+    height: ;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-left: 780px;
+    margin-top: 0px;
+   
+}
+
+.bt-kk:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ .news{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.news .fmm{
+    background-color: #65c723;
+    color: #000;
+    height: 500px;
+    width: 1200px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.fmm .newsobv{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 28px;
+   padding: 80px 30px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #85db18;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .ft {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+   
+}
+
+footer .ft .links{
+    display: flex;
+    gap: 150px;
+}
+
+
